@@ -129,13 +129,14 @@ cid is a 2D array listing available currency.
 
 The checkCashRegister() function should always return an object with a status key and a change key.
 
-Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the change due, or if you cannot return the exact change.
+Return ```{status: "INSUFFICIENT_FUNDS", change: []}``` if cash-in-drawer is less than the change due, or if you cannot return the exact change.
 
-Return {status: "CLOSED", change: [...]} with cash-in-drawer as the value for the key change if it is equal to the change due.
+Return ```{status: "CLOSED", change: [...]}``` with cash-in-drawer as the value for the key change if it is equal to the change due.
 
-Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
+Otherwise, return ```{status: "OPEN", change: [...]}```, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
 
 Currency Unit	Amount
+```
 Penny	: $0.01 (PENNY)
 Nickel :	$0.05 (NICKEL)
 Dime : $0.1 (DIME)
@@ -145,7 +146,7 @@ Five Dollars :	$5 (FIVE)
 Ten Dollars :	$10 (TEN)
 Twenty Dollars :	$20 (TWENTY)
 One-hundred Dollars :	$100 (ONE HUNDRED)
-
+```
 See below for an example of a cash-in-drawer array:
 
 ```
