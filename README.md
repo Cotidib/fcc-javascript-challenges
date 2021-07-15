@@ -123,7 +123,7 @@ telephoneCheck("(555)5(55?)-5555") should return false.
 telephoneCheck("55 55-55-555-5") should return false.
 ```
 
-### Cash RegisterPassed
+### Cash Register
 Design a cash register drawer function checkCashRegister() that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument.
 
 cid is a 2D array listing available currency.
