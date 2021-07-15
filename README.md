@@ -1,5 +1,6 @@
 # fcc-javascript-challenges
-freeCodeCamp JavaScript Algorithms and Data Structures Certification: Final projects made with JavaScript
+Projects made with JavaScript, ES6 and Regular Expressions.
+Challenge projects made for JavaScript Algorithms and Data Structures Certification at freeCodeCamp.
 
 ### Palindrome Checker
 Return true if the given string is a palindrome. Otherwise, return false.
